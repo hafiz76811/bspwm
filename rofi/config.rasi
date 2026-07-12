@@ -1,0 +1,24 @@
+@import "theme.rasi"
+
+configuration {
+modes: "drun,run";
+font: "Adwaita 12";
+location: 0;
+show-icons: true;
+terminal: "kitty";
+icon-theme: "Breeze Dark";
+drun-show-actions: false;
+drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";
+disable-history: false;
+case-smart: false;
+max-history-size: 25;
+display-drun: "Apps";
+  timeout {
+    action: "kb-cancel";
+    delay: 0;
+  }
+  filebrowser {
+    directories-first: true;
+    sorting-method: "name";
+  }
+}
