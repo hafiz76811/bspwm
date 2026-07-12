@@ -186,4 +186,4 @@ ctrl + Print
 
 # screenrecord (fullscreen)
 super + alt + v
-  ~/.config/sxhkd/scripts/record.sh
+  ~/.config/sxhkd/record.sh
