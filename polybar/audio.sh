@@ -2,5 +2,5 @@
 if ! [ "$(pactl list sink-inputs short)" = "" ]; then
   echo on
 else
-  echo off
+  echo "%{F#707880}off%{F-}"
 fi
