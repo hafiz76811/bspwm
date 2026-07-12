@@ -1,0 +1,144 @@
+# 1. Git Integration
+
+Yang paling populer:
+
+`lewis6991/gitsigns.nvim`
+
+Fitur:
+
+```
++
+~
+-
+```
+
+di sebelah kiri editor.
+
+Juga bisa:
+
+* preview hunk
+* stage hunk
+* blame
+
+---
+
+# 2. Which Key
+
+Repository:
+
+`folke/which-key.nvim`
+
+Kalau menekan
+
+```
+<leader>
+```
+
+akan muncul popup semua shortcut.
+
+Sangat membantu mengingat keymap.
+
+---
+
+# 3. Colorscheme
+
+Yang populer:
+
+* `folke/tokyonight.nvim`
+* `catppuccin/nvim`
+* `rose-pine/neovim`
+* `EdenEast/nightfox.nvim`
+* `projekt0n/github-nvim-theme`
+* `navarasu/onedark.nvim`
+
+---
+
+# 4. Notifications
+
+Pilihan:
+
+* `rcarriga/nvim-notify`
+
+Memberikan popup yang lebih menarik daripada pesan bawaan Neovim.
+
+---
+
+# 6. Better Syntax
+
+`folke/todo-comments.nvim`
+
+Menyoroti:
+
+```
+TODO
+FIXME
+NOTE
+WARNING
+BUG
+```
+
+---
+
+# 7. Terminal
+
+Pilihan:
+
+`akinsho/toggleterm.nvim`
+
+Membuka terminal dengan:
+
+```
+Ctrl + \
+```
+
+atau keymap lain yang kamu tentukan.
+
+---
+
+# 8. Session Manager
+
+Pilihan:
+
+`folke/persistence.nvim`
+
+Saat membuka Neovim lagi:
+
+semua buffer bisa kembali seperti sebelumnya.
+
+---
+
+# 9. Trouble
+
+Repository:
+
+`folke/trouble.nvim`
+
+Menampilkan:
+
+* Diagnostics
+* References
+* Definitions
+* Quickfix
+
+dalam satu panel yang rapi.
+
+---
+
+# 10. Mini.nvim
+
+Repository:
+
+`echasnovski/mini.nvim`
+
+Sebenarnya ini kumpulan plugin kecil.
+
+Misalnya:
+
+* mini.ai
+* mini.comment
+* mini.surround
+* mini.pairs
+* mini.files
+* mini.icons
+
+---
