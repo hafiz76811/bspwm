@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-xwallpaper --full ~/.config/backgrounds/wallpaper7.jpg &
+xwallpaper --zoom ~/.config/backgrounds/wallpaper7.jpg &
 /usr/bin/lxsession &
 
 pgrep -x picom > /dev/null || picom &

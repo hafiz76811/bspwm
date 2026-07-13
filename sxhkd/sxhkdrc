@@ -12,7 +12,7 @@ super + @space
 
 # file manager
 super + e
-  nautilus
+  thunar
 
 # web browser
 super + b
