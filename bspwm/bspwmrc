@@ -12,7 +12,7 @@ pgrep -x dunst > /dev/null || dunst &
 # xinput set-prop 7 345 1 # tap to click
 
 xset s 300
-xss-lock --transfer-sleep-lock -- i3lock --image ~/.config/bspwm/wallpaper_blur.png --beep --ignore-empty-password --show-failed-attempts --nofork &
+xss-lock --transfer-sleep-lock -- i3lock --image /usr/share/backgrounds/bspwm/wallpaper_blur.png --beep --ignore-empty-password --show-failed-attempts --nofork &
 
 
 
