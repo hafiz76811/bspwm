@@ -3,13 +3,15 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 xwallpaper --zoom ~/.config/backgrounds/wallpaper7.jpg &
+# /usr/bin/xfce4-session &
 /usr/bin/lxsession &
+# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 pgrep -x picom > /dev/null || picom &
 pgrep -x polybar > /dev/null || polybar &
 pgrep -x dunst > /dev/null || dunst &
 
-# xinput set-prop 7 345 1 # tap to click
+xinput set-prop 7 345 1
 
 xset s 300
 xss-lock --transfer-sleep-lock -- i3lock --image ~/.config/bspwm/wallpaper_blur.png --beep --ignore-empty-password --show-failed-attempts --nofork &
