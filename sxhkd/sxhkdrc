@@ -170,11 +170,11 @@ XF86MonBrightnessDown
 
 # screenshot (full screen)
 Print
-	maim ~/Pictures/Screenshot_$(date +%Y-%m-%d_%H-%M-%S).png && ~/.config/sxhkd/screen.sh
+	~/.config/sxhkd/scripts/screenshot_full.sh
 
 # screenshot (selection)
 shift + Print
-	maim -s ~/Pictures/Screenshot_$(date +%Y-%m-%d_%H-%M-%S).png && ~/.config/sxhkd/screen.sh
+	~/.config/sxhkd/scripts/screenshot_region.sh
 
 # screenshot (selection + copy)
 ctrl + Print
@@ -186,4 +186,4 @@ ctrl + Print
 
 # screenrecord (fullscreen)
 super + alt + v
-	~/.config/sxhkd/record.sh
+	~/.config/sxhkd/scripts/screen_record.sh
