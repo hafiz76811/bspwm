@@ -1,0 +1,29 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+PS1='[\u@\h \W]\$ '
+
+alias ls='ls --color=auto'
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -CF'
+alias lr='tree'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+
+alias rm='trash-put'
+alias fastfetch='fastfetch --config none'
+
+source ~/.config/zsh/git
