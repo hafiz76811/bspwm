@@ -12,11 +12,11 @@ super + @space
 
 # file manager
 super + e
-	$FILES
+	nautilus
 
 # web browser
 super + b
-	$BROWSER
+	falkon
 
 # color picker
 super + p
