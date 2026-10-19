@@ -16,7 +16,7 @@ format = <b>%s</b>\n%b
 show_age_threshold = 10
 word_wrap = yes
 min_icon_size = 32
-max_icon_size = 130
+max_icon_size = 90
 icon_theme = Adwaita
 enable_recursive_icon_lookup = true
 

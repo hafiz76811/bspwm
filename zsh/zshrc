@@ -106,4 +106,3 @@ unsetopt PROMPT_SP             # prompt lebih cepat
 ############################
 
 source ~/.config/zsh/git
-# .zcompdump .zlogout .zprofile .zshenv .zsh_history .zshrc
