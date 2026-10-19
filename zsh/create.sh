@@ -13,6 +13,6 @@ for file in ${files[@]}; do
 	if ! [ -f "/home/$USER/$file" ]; then
 		touch /home/$USER/$file
 	else
-		echo "$file sudah ada!"
+		echo "$file: File exists!"
 	fi
 done
