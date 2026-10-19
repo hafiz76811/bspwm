@@ -6,13 +6,17 @@ files=(
 	.zprofile
 	.zshenv
 	.zsh_history
-	.zshrc
 )
 
 for file in ${files[@]}; do
 	if ! [ -f "/home/$USER/$file" ]; then
-		touch /home/$USER/$file
-	else
-		echo "$file: File exists!"
+		touch ~/$file
 	fi
 done
+
+
+if ! [ -f "/home/$USER/.zshrc" ]; then
+	if [ -f "/home/$USER/.config/zsh/zshrc" ]; then
+		ln -s ~/.config/zsh/zshrc ~/.zshrc
+	fi
+fi
