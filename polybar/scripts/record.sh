@@ -1,6 +1,6 @@
 #!/bin/bash
 if pgrep -x ffmpeg > /dev/null; then
-  echo active
+  echo running
 else
-  echo "%{F#707880}inactive%{F-}";
+  echo "%{F#707880}off%{F-}";
 fi
