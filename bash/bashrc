@@ -5,9 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# PS1='[\u@\h \W]\$ ' # default arch
-# PS1='\[\e[1;36m\]┌──(\[\e[1;32m\]\u@\h\[\e[1;36m\])─[\[\e[1;34m\]\w\[\e[1;36m\]]\n└──\[\e[1;31m\]\$\[\e[0m\] ' # kali linux
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' # debian
+# PS1='[\u@\h \W]\$ ' # archlinux full_white
+# PS1='\[\e[1;36m\]┌──(\[\e[1;34m\]\u@\h\[\e[1;36m\])─[\[\033[00m\]\w\[\e[1;36m\]]\n└──\[\e[1;34m\]\$\[\e[0m\] ' # kali_linux lightblue
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' # debian green_blue
+# PS1='${debian_chroot:+($debian_chroot)}\[\033[01;33m\]\u@\h\[\033[00m\]:\[\033[01;32m\]\w\[\033[00m\]\$ ' # ubuntu orange_green
 
 alias ls='ls --color=auto'
 alias ll='ls -lah'
