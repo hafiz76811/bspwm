@@ -32,4 +32,5 @@ alias ...='cd ../..'
 alias rm='trash-put'
 alias fastfetch='fastfetch --config none'
 
-source ~/.config/zsh/git
+source ~/.config/bash/git
+source ~/.config/bash/create.sh
